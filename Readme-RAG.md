@@ -72,7 +72,3 @@ python main.py
 * **`ValueError: Configuration Error`**: Ensure `SEGMENT_OVERLAP` is smaller than `MAX_CHARS_PER_SEGMENT`.
 * **`ValueError: Extraction Failed`**: The PDF you provided is likely a scanned image. You must use a text-searchable PDF, or run an OCR (Optical Character Recognition) tool on the PDF first.
 * **API Errors during embedding**: Check your internet connection, verify your API key in the `.env` file, or ensure you haven't exceeded your Google AI Studio quota.
-
-```
-
-```
